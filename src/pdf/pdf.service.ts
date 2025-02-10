@@ -5,13 +5,14 @@ import * as path from 'path';
 
 @Injectable()
 export class PdfService {
-    async generatePdf() {
+    async generatePdf(jsonData) {
         const pdfPath = path.join(__dirname, '../../', 'apdea.pdf');
-        const jsonDataPath = path.join(__dirname, '../../', 'apda.json');
-        
+
+        //si quiero leer la data desde el json
+        //const jsonDataPath = path.join(__dirname, '../../', 'apda.json');
         // Leer y parsear el archivo JSON
-        const jsonData = JSON.parse(fs.readFileSync(jsonDataPath, 'utf8'));
-        
+        // const jsonData = JSON.parse(fs.readFileSync(jsonDataPath, 'utf8'));
+
         const existingPdfBytes = fs.readFileSync(pdfPath);
         const pdfDoc = await PDFDocument.load(existingPdfBytes);
         const form = pdfDoc.getForm();

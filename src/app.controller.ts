@@ -1,4 +1,4 @@
-import { Controller, Get, Res } from '@nestjs/common';
+import { Body, Controller, Get, Res } from '@nestjs/common';
 import { Response } from 'express';
 import { PdfService } from './pdf/pdf.service';
 
@@ -6,9 +6,9 @@ import { PdfService } from './pdf/pdf.service';
 export class AppController {
   constructor(private PdfService:PdfService) {}
   @Get('apda')
-  async getPdf(@Res() res: Response) {
+  async getPdf(@Res() res: Response,@Body() body) {
       try {
-          const pdfBytes = await this.PdfService.generatePdf();
+          const pdfBytes = await this.PdfService.generatePdf(body);
           res.setHeader('Content-Type', 'application/pdf');
           res.setHeader('Content-Disposition', 'attachment; filename="filled.pdf"');
           res.send(Buffer.from(pdfBytes));
@@ -19,9 +19,9 @@ export class AppController {
   }
 
   @Get('apda-return')
-  async getPdfInline(@Res() res: Response) {
+  async getPdfInline(@Res() res: Response,@Body() body) {
       try {
-          const pdfBytes = await this.PdfService.generatePdf();
+          const pdfBytes = await this.PdfService.generatePdf(body);
           res.setHeader('Content-Type', 'application/pdf');
           res.setHeader('Content-Disposition', 'inline; filename="filled.pdf"');
           res.send(Buffer.from(pdfBytes));
