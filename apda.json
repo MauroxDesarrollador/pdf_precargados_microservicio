@@ -1,0 +1,209 @@
+{
+    "data": [
+        {
+            "name": "Nombre de la compañia",
+            "index": 0,
+            "value": "Valor"
+        },
+        {
+            "name": "Certificado",
+            "index": 1,
+            "value": "certificado"
+        },
+        {
+            "name": "NOMBRE COMPLETO DEL ASEGURADO PRINCIPAL",
+            "index": 2,
+            "value": "nombre"
+        },
+        {
+            "name": "EMAIL",
+            "index": 3,
+            "value": "Valor del asegurado"
+        },
+        {
+            "name": "Celular",
+            "index": 4,
+            "value": "Valor del email"
+        },
+        {
+            "name": "Cedula o pasaporte",
+            "index": 5,
+            "value": "cedula"
+        },
+        {
+            "name": "Fecha nacimiento",
+            "index": 6,
+            "value": "010101"
+        },
+        {
+            "name": "Cedula o pasaporte del paciente",
+            "index": 7,
+            "value": "Valor de la cedula"
+        },
+        {
+            "name": "Dia de nacimiento",
+            "index": 8,
+            "value": "01"
+        },
+        {
+            "name": "Mes de nacimiento",
+            "index": 9,
+            "value": "01"
+        },
+        {
+            "name": "Año de nacimiento",
+            "index": 10,
+            "value": "01"
+        },
+        {
+            "name": "Numero de poliza",
+            "index": 11,
+            "value": "poliza"
+        },
+        {
+            "name": "Nombre de la compañia",
+            "index": 12,
+            "value": "nombre"
+        },
+        {
+            "name": "País de atencion",
+            "index": 13,
+            "value": "panama"
+        },
+        {
+            "name": "LUGAR DE EMPLEO, COLEGIO O UNIVERSIDAD DEL PACIENTE",
+            "index": 14,
+            "value": "lugar"
+        },
+        {
+            "name": "Ocupación",
+            "index": 15,
+            "value": "ocupacion"
+        },
+        {
+            "name": "Fecha los primeros dias, DD",
+            "index": 16,
+            "value": "01"
+        },
+        {
+            "name": "Fecha los primeros dias, MM",
+            "index": 17,
+            "value": "01"
+        },
+        {
+            "name": "Fecha los primeros dias, YY",
+            "index": 18,
+            "value": "01"
+        },
+        {
+            "name": "Describa",
+            "index": 19,
+            "value": "describa"
+        },
+        {
+            "name": "Cuando ocurrio, DD",
+            "index": 21,
+            "value": "01"
+        },
+        {
+            "name": "Cuando ocurrio, MM",
+            "index": 22,
+            "value": "01"
+        },
+        {
+            "name": "Cuales son las lesiones que sufrio",
+            "index": 23,
+            "value": "donde"
+        },
+        {
+            "name": "Cuando ocurrio, YY",
+            "index": 24,
+            "value": "01"
+        },
+        {
+            "name": "Cuando ocurrio, HH",
+            "index": 25,
+            "value": "01"
+        },
+        {
+            "name": "Cuando ocurrio, MM",
+            "index": 26,
+            "value": "01"
+        },
+        {
+            "name": "Que sintomas",
+            "index": 27,
+            "value": "sintomas"
+        },
+        {
+            "name": "Que tratamiento",
+            "index": 28,
+            "value": "tratamiento"
+        },
+        {
+            "name": "Que medicamentos",
+            "index": 29,
+            "value": "medicamentos"
+        },
+        {
+            "name": "Que examenes",
+            "index": 30,
+            "value": "examenes"
+        },
+        {
+            "name": "Que diagnostico",
+            "index": 31,
+            "value": "diagnostico"
+        },
+        {
+            "name": "Que cirugia",
+            "index": 32,
+            "value": "cirugia"
+        },
+        {
+            "name": "Que hospital",
+            "index": 33,
+            "value": "hospital"
+        },
+        {
+            "name": "Que medico",
+            "index": 34,
+            "value": "medico"
+        },
+        {
+            "name": "Que telefono",
+            "index": 35,
+            "value": "telefono"
+        },
+        {
+            "name": "Que email",
+            "index": 36,
+            "value": "email"
+        },
+        {
+            "name": "Que direccion",
+            "index": 37,
+            "value": "direccion"
+        },
+        {
+            "name": "Que ciudad",
+            "index": 38,
+            "value": "ciudad"
+        },
+        {
+            "name": "Que pais",
+            "index": 39,
+            "value": "pais"
+        },
+        {
+            "name": "Que codigo postal",
+            "index": 40,
+            "value": "codigo"
+        },
+        {
+            "name": "Que fecha",
+            "index": 41,
+            "value": "01"
+        }
+    ]
+}
